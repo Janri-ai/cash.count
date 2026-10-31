@@ -1,0 +1,17 @@
+{
+  "name": "Laporan Cash Count",
+  "short_name": "Cash Count",
+  "description": "Laporan harian Cash Count dengan lampiran foto/PDF",
+  "lang": "id",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0072FF",
+  "theme_color": "#0072FF",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

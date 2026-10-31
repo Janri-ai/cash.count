@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Ikon aplikasi di layar HP: latar biru penuh (aman dipotong bulat/kotak oleh HP), uang kertas + koin di tengah -->
+  <defs>
+    <linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0072FF"/><stop offset="1" stop-color="#0049B8"/></linearGradient>
+    <linearGradient id="gNote" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D697"/><stop offset="1" stop-color="#2A9A5F"/></linearGradient>
+    <linearGradient id="gCoin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE48A"/><stop offset="1" stop-color="#F0A41A"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#gBg)"/>
+  <circle cx="256" cy="256" r="168" fill="#fff" opacity=".14"/>
+  <g transform="translate(96 96) scale(5)">
+    <g transform="rotate(-14 28 26)">
+      <rect x="5" y="13" width="42" height="26" rx="4" fill="url(#gNote)"/>
+      <rect x="8.5" y="16.5" width="35" height="19" rx="2.4" fill="none" stroke="#C4F2D9" stroke-width="1.4"/>
+      <circle cx="26" cy="26" r="6.6" fill="#1F8049" stroke="#C4F2D9" stroke-width="1.4"/>
+      <circle cx="12.5" cy="20" r="1.7" fill="#C4F2D9"/>
+      <circle cx="39.5" cy="32" r="1.7" fill="#C4F2D9"/>
+    </g>
+    <circle cx="45" cy="44" r="14.5" fill="#001A5A" opacity=".16"/>
+    <circle cx="44" cy="42" r="14" fill="url(#gCoin)" stroke="#CF8A0B" stroke-width="1.6"/>
+    <circle cx="44" cy="42" r="10" fill="none" stroke="#E7A01A" stroke-width="1.4"/>
+    <text x="44" y="46.2" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11.5" font-weight="800" fill="#965C00">Rp</text>
+  </g>
+</svg>
